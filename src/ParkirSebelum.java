@@ -20,10 +20,12 @@ public class ParkirSebelum {
         System.out.println("Plat Nomor: " + plat);
         System.out.println("Lama Parkir: " + lama + " jam");
         System.out.println("Biaya Parkir: Rp" + biaya);
+        System.out.println("Abdul Halim");
     }
 
     private static int Lamaparkirr(int jamKeluar, int jamMasuk) {
         int lama = jamKeluar - jamMasuk;
         return lama;
     }
+
 }
